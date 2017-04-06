@@ -1,0 +1,25 @@
+{
+  "clientName": "MSU Denver",
+  "projectName": "Nov 2016 Homepage Project",
+  "description": "Create a home landing page from designs provided by the client",
+  "developer": "Michael Mason",
+  "version": "0.1.0",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-bower-task": "latest",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-copy": "latest",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-less": "^1.4.1",
+    "grunt-contrib-qunit": "^2.0.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "latest",
+    "grunt-contrib-watch": "latest",
+    "grunt-express": "latest",
+    "grunt-html-validation": "^0.1.18",
+    "grunt-include-replace": "latest",
+    "grunt-parallel": "^0.5.1",
+    "grunt-svg-sprite": "^1.3.6"
+  },
+  "dependencies": {}
+}
