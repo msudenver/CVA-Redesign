@@ -158,7 +158,27 @@
     .fa-bars {
       color: #fff;
     }
-
+    .linkcolumn > .custombtn {
+      background: transparent;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 400;
+    }
+		.linkcolumn > a {
+      color: #000000;
+    }
+    .linkcolumn {
+      display: inline-block;
+    }
+    .btn-lg, .btn-group-lg>.btn {
+      padding: 10px 0px;
+      font-size: 14px;
+      line-height: 49pt;
+    }
+    .nav>li>a {
+      position: relative;
+      display: block;
+      padding: 10px 0px;
+    }
     /* HIDE RIGHT SIDE LOGO ON MOBILE */
     @media (max-width: 991px){
       .cva-logo-right {
@@ -201,26 +221,9 @@
      <div id="left-nav" class="col-lg-3 col-md-3 col-sm-12 col-xs-12 left-nav-1">
        <div class="collapse navbar-collapse" id="side-nav">
          <t4 type="navigation" id="1324"/>
-         <ul class="nav nav-pills nav-stacked">
-           <li class="cva-extra-nav">
-             <a href="https://advance.msudenver.edu/cva-mailing-list"  class="left-links" alt="Newsletter Sign-up">
-               <span role="presentation" class="fa fa-newspaper-o fa-lg"></span>
-               Newsletter Sign-up
-             </a>
-           </li>
-           <li class="cva-extra-nav">
-             <a href="https://advance.msudenver.edu/giving/makeagift/cva"  class="left-links" alt="Giving to the CVA">
-               <span role="presentation" class="fa fa-gift fa-lg"></span>
-               Giving to the CVA
-             </a>
-           </li>
-           <li class="cva-extra-nav">
-             <a href="http://msudenver.edu/cva/about/employment/galleryassistant/"  class="left-links" alt="Student Employment">
-               <span role="presentation" class="fa fa-user fa-lg"></span>
-               Student Employment
-             </a>
-           </li>
-         </ul>
+         <div class="linkcolumn">
+	         <t4 type='navigation' id='104' />
+         </div>
        </div>
      </div>
      <!-- AddThis Button END -->
